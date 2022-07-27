@@ -1,3 +1,27 @@
+import { type } from "@testing-library/user-event/dist/type"
+
+type CityType = {
+    title: string
+    countryTitle: string
+}
+
+type AdresssType = {
+    streetTitle : string
+    city: CityType
+
+}
+
+type StudentType = {
+    id: number
+    name: string
+    age: number
+    isActiv: boolean
+    addresss: AdresssType
+    technologies: Array 
+}
+
+
+
 const student = {
     id: 1,
     "name": "Uliana",

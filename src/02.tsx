@@ -11,13 +11,18 @@ type AdresssType = {
 
 }
 
+type TechType = {
+    id: number
+    title: string
+}
+
 type StudentType = {
     id: number
     name: string
     age: number
     isActiv: boolean
     addresss: AdresssType
-    technologies: Array 
+    technologies: Array <TechType>
 }
 
 

@@ -1,4 +1,4 @@
-import { student, StudentType } from "./02";
+import {  StudentType } from "./02";
 
 
 export const sum  = (a: number, b: number) => {

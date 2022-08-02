@@ -1,13 +1,13 @@
 import { type } from "@testing-library/user-event/dist/type"
 
-type CityType = {
+type LocalCityType = {
     title: string
     countryTitle: string
 }
 
 type AdresssType = {
     streetTitle : string
-    city: CityType
+    city: LocalCityType
 
 }
 

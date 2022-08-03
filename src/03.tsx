@@ -22,3 +22,8 @@ export function addSkill2   (st: StudentType, skill: string) {
         title: skill
     })
 }
+
+export function makeStudentActiv (s:StudentType){
+    s.isActiv = true;
+
+}

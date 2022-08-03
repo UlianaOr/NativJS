@@ -37,6 +37,7 @@ beforeEach(()=> {
 
 
 test ("new tech skill shoold be added to student", ()=> {
+    expect (student.technologies.length). toBe (3)
     addSkill (student, "JS");
 
 })
